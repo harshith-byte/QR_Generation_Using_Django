@@ -1,0 +1,14 @@
+{% include 'main/nav.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/doctor_page.css' %}">
+<h1 style="text-align: center;">welcome dr. {{content.name}}</h1>
+<hr>
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+      <label>Enter your phone number to continue</label>
+      <input type="text" class="form-control" placeholder="Text input" id="phone" name="phone">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
