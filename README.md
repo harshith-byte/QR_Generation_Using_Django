@@ -37,6 +37,9 @@
   - git clone git@github.com:harshith-byte/QR_Generation_Using_Django.git
 ```
 
+- make changes in /QR_to_Website/QR_to_Website/setting.py file by adding Email Address and Password.
+
+- make changes in /QR_to_Website/main/views.py file by adding custom Email Address to send mail to.
 
 - open terminal and Change directory to main
 ```
