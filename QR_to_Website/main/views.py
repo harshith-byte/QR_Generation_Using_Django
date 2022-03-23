@@ -35,7 +35,7 @@ def mail(nam):
                 'Thank you for registering to our site',
                 template,
                 settings.EMAIL_HOST_USER,
-                ['ramucm130@gmail.com',],
+                ['Add custom Email to send the mail',],
             )
 
     email.fail_silently=False
