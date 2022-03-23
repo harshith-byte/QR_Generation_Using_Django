@@ -41,7 +41,7 @@
 
 - make changes in /QR_to_Website/main/views.py file by adding custom Email Address to send mail to.
 
-- open terminal and Change directory to main
+- open terminal and Change directory to QR_to_Website
 ```
   - cd QR_to_Website/
 ```
